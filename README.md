@@ -1,0 +1,2 @@
+# serendipitous-ponderings
+Just thoughts.
