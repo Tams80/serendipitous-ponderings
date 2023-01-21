@@ -1,47 +1,43 @@
-/* Position the tabs at the top of the page */
-.tabs {
-  display: flex;
-  position: fixed;
-  width: 100%;
-  background-color: #f1f1f1;
-  padding: 10px;
-  box-shadow: 0px 2px 2px #ccc;
-}
-
-/* Style the individual tabs */
+/* Style the tab */
 .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #159ad8;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* other existing styles */
+}
+
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: rgb(14, 110, 201);
+  color: rgb(255, 255, 255);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
   width: 25%;
-  text-align: center;
-  padding: 10px;
-  color: #666;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
 }
 
-/* Style the active tab */
-.tab.active {
-  background-color: #ddd;
-  color: #000;
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  position: relative;
+  z-index: 2;
+  background-color: rgba(14, 110, 201, 0.5);
+  color: rgb(8, 32, 139);
 }
 
-/* Style the menus */
-.menus {
-  display: none; /* Hide menus by default */
-  position: absolute;
-  width: 100%;
-  background-color: #f1f1f1;
-  padding: 10px;
-  box-shadow: 0px 2px 2px #ccc;
-}
-
-/* Style the individual menu items */
-.menu div {
-  padding: 8px;
-  color: #666;
-  cursor: pointer;
-}
-
-/* Style the active menu item */
-.menu div.active {
-  background-color: #ddd;
-  color: #000;
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
