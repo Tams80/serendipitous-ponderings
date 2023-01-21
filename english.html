@@ -1,73 +1,108 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>English</title>
-    <link href="css/styles.css" rel="stylesheet">
-    <script src="js/script.js"></script>
-  </head>
-  <body>
+<!DOCTYPE html> 
+<html lang="en">
 
-    <!-- Tab links -->
-    <div class="tab">
-      <button class="tablinks" onmouseover="openSection(event, 'Home')" onclick="openSection(event, 'Home')">Home</button>
-      <button class="tablinks" onmouseover="openSection(event, 'Learning')" onclick="openSection(event, 'Learning')">Learning</button>
-      <button class="tablinks" onmouseover="openSection(event, 'Hobbies')" onclick="openSection(event, 'Hobbies')">Hobbies</button>
-      <button class="tablinks" onmouseover="openSection(event, 'Miscellaneous')" onclick="openSection(event, 'Miscellaneous')">Miscellaneous</button>
-    </div>
-
-    <!-- Tab content -->
-    <div id="Home" class="tabcontent">
-        <h3>
-            <a href="index.html">Home</a>
-        </h3>
-        <p>
-            <a href="index.html">Go to homepage.</a>
-        </p>
-    </div>
-  
-    <div id="Learning" class="tabcontent">
-        <h3>Learning</h3>
-        <p>
-            <a href="english.html">English</a>
-        </p>
-        <p>
-            <a href="japanese.html">Japanese</a>
-        </p>
-    </div>
-  
-    <div id="Hobbies" class="tabcontent">
-        <h3>Hobbies</h3>
-        <p>
-            <a href="gaming.html">Gaming</a>
-        </p>
-        <p>
-            <a href="swimming.html">Swimming</a>
-        </p>
-        <p>
-            <a href="running.html">Running</a>
-        </p>
-        <p>
-            <a href="piano.html">Piano</a>
-        </p>
-        <p>
-            <a href="tech.html">Tech</a>
-        </p>
-    </div>
-  
-    <div id="Miscellaneous" class="tabcontent">
-        <h3>
-            <a href="misc.html">Miscellaneous</a>
-        </h3>
-        <p>Anything else goes here.</p>
-    </div>
+    <head>
+        <title>Serendipitous Ponderings - English</title>
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/english.css" rel="stylesheet">
+        <script src="js/script.js"></script>
+        <script src="js/header.js" type="text/javascript" defer></script>
+        <script src="js/footer.js" type="text/javascript" defer></script>
+    </head>
     
-    <h1>English Learning and Teaching</h1>
-      <p>Colours have been shown to greatly aid memorisation.  Students can learn to associate different colours with different types of words.  Care should be taken
+    <body>
+
+        <header-component></header-component>   
+
+        <h1>English Learning and Teaching</h1>
+        <p>Colours have been shown to greatly aid memorisation.  Students can learn to associate different colours with different types of words.  Care should be taken
         to make sure they are not just memorising the order of colours.  To do this, it may be best to just use colours as a learning aid and gradually remove them from
         materials as students become used to the language.
-      </p>
+        </p>
+        <p>Words can change their part of speech at times depending on the context in which they are used.  I address this by using the most common type of word that they are.
+        This is easier to address when using a computer, though it will take more work to change the colours of the words.
+        </p>
+        <p>I suggest using coloured outline boxes around the words, or coloured backgrounds rather than colouring the words themselves. Colouring the words can make them
+        hard to read (often with yellow) and coloured words are not common in the real world.
+        </p>
 
-      <p>Here is a guide to using colours to represent different parts of speech.</p>
+        <p>Here is a guide to using colours to represent different parts of speech.</p>
 
-  </body>
+        <h2>Colour - Part of Speech Matrix/Crib</h2>
+
+        <div style="overflow-x: auto;">
+            <table>
+              <tr>
+                <th>Part of Speech</th>
+                <th>Colour</th>
+              </tr>
+              <tr>
+                <td>Question Words</td>
+                <td>Blue</td>
+                <td>
+                  <div class="circle-blue"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>Nouns</td>
+                <td>Red</td>
+                <td>
+                  <div class="circle-red"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>Verbs</td>
+                <td>Green</td>
+                <td>
+                  <div class="circle-green"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>Adjectives</td>
+                <td>Yellow</td>
+                <td>
+                  <div class="circle-yellow"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>Adverbs</td>
+                <td>Purple</td>
+                <td>
+                  <div class="circle-purple"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>Pronouns</td>
+                <td>Pink</td>
+                <td>
+                  <div class="circle-pink"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>Prepositions</td>
+                <td>Orange</td>
+                <td>
+                  <div class="circle-orange"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>Conjunctions</td>
+                <td>Brown</td>
+                <td>
+                  <div class="circle-brown"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>Articles</td>
+                <td>Grey</td>
+                <td>
+                  <div class="circle-grey"></div>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+        <footer-component></footer-component>
+
+    </body>
 </html>

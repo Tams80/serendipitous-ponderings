@@ -1,0 +1,75 @@
+table {
+    border-collapse: collapse;
+    width: 15%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+/* Making circles */
+  .circle-blue {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: blue;
+  }
+
+  .circle-red {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: red;
+  }
+
+  .circle-green {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: green;
+  }
+
+  .circle-yellow {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: yellow;
+  }
+  
+  .circle-purple {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: purple;
+  }
+
+  .circle-pink {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: pink;
+  }
+
+  .circle-orange {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: orange;
+  }
+
+  .circle-brown {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: brown;
+  }
+
+  .circle-grey {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: grey;
+  }

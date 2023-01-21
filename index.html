@@ -1,74 +1,21 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Serendipitous Ponderings</title>
-    <link href="css/styles.css" rel="stylesheet">
-    <script src="js/script.js"></script>
-  </head>
-  <body>
+<!DOCTYPE html> 
+<html lang="en">
 
-    <!-- Tab links -->
-    <div class="tab">
-      <button class="tablinks" onmouseover="openSection(event, 'Home')" onclick="openSection(event, 'Home')">Home</button>
-      <button class="tablinks" onmouseover="openSection(event, 'Learning')" onclick="openSection(event, 'Learning')">Learning</button>
-      <button class="tablinks" onmouseover="openSection(event, 'Hobbies')" onclick="openSection(event, 'Hobbies')">Hobbies</button>
-      <button class="tablinks" onmouseover="openSection(event, 'Miscellaneous')" onclick="openSection(event, 'Miscellaneous')">Miscellaneous</button>
-    </div>
-
-    <!-- Tab content -->
-    <div id="Home" class="tabcontent">
-      <h3>
-        <a href="index.html">Home</a>
-      </h3>
-      <p>
-        <a href="index.html">Go to homepage.</a>
-      </p>
-    </div>
-
-    <div id="Learning" class="tabcontent">
-      <h3>Learning</h3>
-      <p>
-        <a href="english.html">English</a>
-      </p>
-      <p>
-        <a href="japanese.html">Japanese</a>
-      </p>
-    </div>
-
-    <div id="Hobbies" class="tabcontent">
-      <h3>Hobbies</h3>
-      <p>
-        <a href="gaming.html">Gaming</a>
-      </p>
-      <p>
-        <a href="swimming.html">Swimming</a>
-      </p>
-      <p>
-        <a href="running.html">Running</a>
-      </p>
-      <p>
-        <a href="piano.html">Piano</a>
-      </p>
-      <p>
-        <a href="tech.html">Tech</a>
-      </p>
-    </div>
-
-    <div id="Miscellaneous" class="tabcontent">
-      <h3>
-        <a href="misc.html">Miscellaneous</a>
-      </h3>
-      <p>Anything else goes here.</p>
-    </div>
-    
-    <h1>Welcome!</h1>
-      <p>This site is just for my ramblings, thoughts, ideas, and any useful tips I come across.  They may not be accurate or correct, and may be outdated or very specific.</p>
-
-      <p>My education is in geography and climate change - salt marsh carbon emissions specifically.  But far more clever people are working on that stuff and, anyway,
-        being shown that we are harming the environment is not the main issue now.  No, solutions to it are.  Unfortunately, I have no expertise in that area.</p>  
+    <head>
+        <title>Serendipitous Ponderings</title>
+        <link href="css/styles.css" rel="stylesheet">
+        <script src="js/script.js"></script>
+        <script src="js/header.js" type="text/javascript" defer></script>
+        <script src="js/footer.js" type="text/javascript" defer></script>
+    </head>
+    <body>
         
-      <p>So, these days I have a particular interest in language learning.  I'm ever trying to learn Japanese, and I've taught English for close to a decade now.  
-        It's a fastinating area, and I love seeing how languages are constructed!  I love learning and teaching them too!  I'm terrible at the learning bit though.</p>
-      
-  </body>
+        <header-component></header-component>    
+
+        <h1>Welcome</h1>
+        <p>Hey</p>
+
+        <footer-component></footer-component>
+
+    </body>
 </html>
