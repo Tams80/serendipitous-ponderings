@@ -1,5 +1,8 @@
+/* This is for reference only.  Changes here will not change anything.
+Go to footer.js to make changes */
+
 .footer {
-    position: fixed;
+    position: static;
     left: 0;
     bottom: 0;
     width: 100%;

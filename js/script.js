@@ -1,3 +1,5 @@
+/* This is a general file that is for all pages */
+
 function openLink(evt, linkName) {
     // Declare all variables
     var i, tabcontent, tablinks;

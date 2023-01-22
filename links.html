@@ -7,43 +7,47 @@
         <link href="css/links.css" rel="stylesheet">
         <script src="js/script.js"></script>
         <script src="js/header.js" type="text/javascript" defer></script>
+        <script src="js/footer.js" type="text/javascript" defer></script>
     </head>
-    <body>
+    
+    <body class="body-for-sticky">
+
         <header-component></header-component>    
 
         <h1>Links of Interest</h1>
         <h2>Website Building</h2>
        
-
         <div class="tab">
-            <button class="tablinks" onmouseover="openLink(event, 'ReusableHTML')">Reusable HTML Components</button>
-            <button class="tablinks" onmouseover="openLink(event, 'TPCR')">Tablet PC Review</button>
-            <button class="tablinks" onmouseover="openLink(event, 'Tea')">Tea</button>
-            <button class="tablinks" onmouseover="openLink(event, 'Biscuits')">Biscuits</button>
-          </div>
+          <button class="tablinks" onmouseover="openLink(event, 'ReusableHTML')">Reusable HTML Components</button>
+          <button class="tablinks" onmouseover="openLink(event, 'TPCR')">Tablet PC Review</button>
+          <button class="tablinks" onmouseover="openLink(event, 'Tea')">Tea</button>
+          <button class="tablinks" onmouseover="openLink(event, 'Biscuits')">Biscuits</button>
+        </div>
           
-          <div id="ReusableHTML" class="tabcontent">
-            <h3>Reusable HTML Components</h3>
-            <p>A really good guide on how to make a template/resuable HTML components without using PHP or the like.  Great for Github Pages!</p>
-            <a href="https://www.freecodecamp.org/news/reusable-html-components-how-to-reuse-a-header-and-footer-on-a-website/">Reusable HTML Components – How to Reuse a Header and Footer on a Website</a>
-            <p>NB: Having the header.js file in a different directory didn't work well for me, but it's fine in the standard 'js' directory.</p>
-          </div>
+        <div id="ReusableHTML" class="tabcontent">
+          <h3>Reusable HTML Components</h3>
+          <p>A really good guide on how to make a template/resuable HTML components without using PHP or the like.  Great for Github Pages!</p>
+          <a href="https://www.freecodecamp.org/news/reusable-html-components-how-to-reuse-a-header-and-footer-on-a-website/">Reusable HTML Components – How to Reuse a Header and Footer on a Website</a>
+          <p>NB: Having the header.js file in a different directory didn't work well for me, but it's fine in the standard 'js' directory.</p>
+        </div>
 
-          <div id="TPCR" class="tabcontent">
-            <h3><a href="https://forum.tabletpc.review">Tablet PC Review</a></h3>
-            <p>A fantastic forum for anyone interest in tablets, especially Windows ones.  Everything from Windows tablets, to Android and Apple ones, to eInk ones.</p>
-            <p>It's an especially good place if you are interested in penabled computing.</p>
-          </div>
+        <div id="TPCR" class="tabcontent">
+          <h3><a href="https://forum.tabletpc.review">Tablet PC Review</a></h3>
+          <p>A fantastic forum for anyone interest in tablets, especially Windows ones.  Everything from Windows tablets, to Android and Apple ones, to eInk ones.</p>
+          <p>It's an especially good place if you are interested in penabled computing.</p>
+        </div>
 
-          <div id="Tea" class="tabcontent">
-            <h3>Tea</h3>
-            <p>Placeholder.</p>
-          </div>
+        <div id="Tea" class="tabcontent">
+          <h3>Tea</h3>
+          <p>Placeholder.</p>
+        </div>
 
-          <div id="Biscuits" class="tabcontent">
-            <h3>Biscuits</h3>
-            <p>Placeholder.</p>
-          </div>
+        <div id="Biscuits" class="tabcontent">
+          <h3>Biscuits</h3>
+          <p>Placeholder.</p>
+        </div>
+  
+        <footer-component></footer-component>
 
     </body>
 </html>
