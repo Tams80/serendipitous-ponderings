@@ -1,6 +1,6 @@
 table {
     border-collapse: collapse;
-    width: 15%;
+    width: 80%;
   }
   
   th, td {
@@ -11,11 +11,11 @@ table {
   tr:nth-child(even) {background-color: #f2f2f2;}
 
 /* Making circles */
-  .circle-blue {
+  .circle-light-blue {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: skyblue;
   }
 
   .circle-red {
@@ -46,6 +46,13 @@ table {
     background-color: purple;
   }
 
+  .circle-light-green {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: lawngreen;
+  }
+
   .circle-pink {
     width: 35px;
     height: 35px;
@@ -72,4 +79,16 @@ table {
     height: 35px;
     border-radius: 50%;
     background-color: grey;
+  }
+
+  .info {
+    background-color: #eceba6;
+    border-left: 6px solid #dad60d;
+    height: 1.5em;
+  }
+  
+  .note {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+    height: 2.5em;
   }
