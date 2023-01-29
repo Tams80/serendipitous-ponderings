@@ -68,11 +68,39 @@
      color: white;
   }
 
-.container {
-  align-items: right; 
-  float: right;
-}
-.image{
-    float: right;
-  padding: 5px;
-}
+  .container-left {
+    display: flex;
+    flex-direction: row; /* set to 'row-reverse' for image on left and text on right */
+    align-items: center; /* align elements horizontally */
+    justify-content: center; /* align elements vertically */
+  }
+
+    .image {
+      width:60%;
+      margin-right:5%;
+    }
+
+    .text {
+      width:40%;
+      margin-left:10%;
+      text-align: left;
+      padding-left: 10px;
+    }
+
+  .container-right {
+    display: flex;
+    flex-direction: row-reverse; /* set to 'row' for image on left and text on right */
+    align-items: center; /* align elements horizontally */
+    justify-content: center; /* align elements vertically */
+  }
+
+    .image {
+      width:60%;
+      margin-right:5%;
+    }
+
+    .text {
+      width:40%;
+      margin-left:0%;
+      text-align: left;
+    }
