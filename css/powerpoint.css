@@ -22,14 +22,14 @@
   .row > .column {
     padding: 8px;
   }
-  
+
   /* Create three equal columns that floats next to each other */
   .column {
     float: left;
-    width: 33.33%;
+    width: 100%;
     display: none; /* Hide columns by default */
   }
-  
+    
   /* Clear floats after rows */
   .row:after {
     content: "";
@@ -67,3 +67,12 @@
     background-color: #666;
      color: white;
   }
+
+.container {
+  align-items: right; 
+  float: right;
+}
+.image{
+    float: right;
+  padding: 5px;
+}

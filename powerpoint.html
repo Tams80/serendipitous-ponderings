@@ -1,0 +1,214 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+    <head>
+        <title>Serendipitous Ponderings - PowerPoint</title>
+        <link href="css/powerpoint.css" rel="stylesheet">
+        <script src="js/script.js"></script>
+        <script src="js/header.js" type="text/javascript" defer></script>
+        <script src="js/footer.js" type="text/javascript" defer></script>
+        <script src="js/filter.js"></script>
+    </head>
+    
+    <body class="body-for-sticky">
+
+        <header-component></header-component>   
+    
+        <h1>PowerPoint</h1>
+        <p>Here are some tips and tricks, and some resources for using PowerPoint that I've picked up over the years.
+            I've used it a lot and run into many frustrations, but it is a remarkably powerful piece of software.
+        </p>
+        <p>If you are teaching, then I highly recommend that you use it in the classroom.</p>
+        <p>There is alternative presentation software, but none of it comes close to PowerPoint.  The closest is Keynote on 
+            macOS and iOS, but even there PowerPoint overshadows it.
+        </p>
+
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('recfeat')"> Recommended Features</button>
+            <button class="btn" onclick="filterSelection('tipsntricks')"> Tips and Tricks</button>
+            <button class="btn" onclick="filterSelection('personalres')"> Personally Created Resources</button>
+            <button class="btn" onclick="filterSelection('linksnres')"> Links and Resources</button>
+            <button class="btn" onclick="filterSelection('addons')"> Add-ons</button>
+        </div>
+
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+
+            <div class="column recfeat">
+                <div class="content">
+                <img src="images/Quick Access Toolbar.png" alt="Quick Access Toolbar" style="height:100%">
+                    <h4>Quick Access Toolbar</h4>
+                    <p>Add the tools that you use the most.  Especially so if they aren't in the first two or three tabs in the ribbon.</p>
+                    <p>To add a tool, or sub-menu of tools, right click it and choose 'add to toolbar'.  This can also be done in the 
+                        settings.  The order can only be changed in the settings by using the up and down buttons (not keys!)
+                    </p>
+                </div>
+            </div>
+
+            <div class="column recfeat">
+                <div class="content">
+                    <div class ="container">
+                        <div class="image"><img src="images/PowerPoint Pen Colours - top.png" alt="Pen Colours" style="width:50%"></div>
+                        <div class="image"><img src="images/PowerPoint Pen Colours - bottom.png" alt="Pen Colours" style="width:50%"></div>
+                    </div>
+                    <h4>Pen colours</h4>
+                    <p>You can get the normal array of colours, but Microsoft have also included metallic colours, as 
+                        well as a rainbow one and even one based on imagery from the Hubble Space Telescope!
+                    </p>
+                </div>
+            </div>
+
+            <div class="column recfeat">
+                <div class="content">
+                    <div class ="container">
+                        <div><img src="images/Ink Replay.png" alt="Ink Replay" style="width:100%"></div>
+                    </div>
+                    <h4>Ink Replay</h4>
+                    <p>You can draw using any input and PowerPoint will show a live playback of what you drew.</p>
+                    <p>I've found this to be great for 'What's this?' quizzes.</p>
+                </div>
+            </div>
+
+            <div class="column recfeat">
+                <div class="content">
+                <img src="xx" alt="xx" style="width:100%">
+                    <h4>Replace image with</h4>
+                    <p>If you want to keep the format and animations of an image, but replace the actual image, then this is 
+                        the tool you need.
+                    </p>                    
+                    <p>It can be handy if you are using an existing slide as a template but don't have placeholders in place -
+                        especially useful when doing a last minute slide!
+                    </p>
+                    <p>You can also use it in picture reveal games to change the images without resizing, repositioning, etc. I 
+                        recommend that you make separate slides first though, and then using this tool.  This way you end up with
+                        a set of slides pre-made.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column recfeat">
+                <div class="content">
+                <img src="xx" alt="xx" style="width:100%">
+                    <h4>Animation Painter</h4>
+                    <p>Copies the animations of the first clicked object and applies them to any object clicked after.</p>
+                    <p>Double click the button to be able to click multiple objects to duplicate the animations to.</p>
+                    <p>Click the button or outside any object to end/cancel it.</p>                      
+                </div>
+            </div>
+
+            <div class="column tipsntricks">
+                <div class="content">
+                <img src="xx" alt="xx" style="width:100%">
+                    <h4>Ctrl (Cmd) + D</h4>
+                    <p>You know Ctrl + C and Ctrl + V.  Well this is them in one key combo!  And you can hold this down to 
+                        rapidly duplicate an object.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column tipsntricks">
+                <div class="content">
+                <img src="xx" alt="xx" style="width:100%">
+                    <h4>Add Animation and Selection Panes to Quick Access Toolbar</h4>
+                    <p>This will allow you to have quick access to these panes.  They don't automatically open all the time and 
+                        to do so from the ribbon is less efficient.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column tipsntricks">
+                <div class="content">
+                <img src="xx" alt="xx" style="width:100%">
+                    <h4>Add Align to the Quick Access Toolbar</h4>
+                    <p>Choose the types of align you'd like and add them for easier access.  Add the whole 'Arrange' sub-menu if you need
+                        several of them.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column personalres">
+                <div class="content">
+                <img src="xx" alt="xx" style="width:100%">
+                    <h4>Placeholder</h4>
+                    <p>Stuff.</p>
+                </div>
+            </div>
+
+            <div class="column linksnres">
+                <div class="content">
+                <img src="images/Tekhnologic.png" alt="tekhnologic" style="width:100%">
+                    <h4><a href="https://tekhnologic.wordpress.com">tekhnologic - Learn. Try. Share.</a></h4>
+                    <p>Technically very impressive PowerPoint games and tools from a former ALT in Japan.</p>
+                    <p>One of the first sites to share PowerPoints for teaching of such quality and complexity.</p>
+                    <p>Status: Indefinite hiatus as of 2018.  Site and downloads still fully functional.</p>
+                </div>
+            </div>
+
+            <div class="column linksnres">
+                <div class="content">
+                <img src="images/Tay's_Teaching_Toolkit.png" alt="Tay's Teaching Toolkit" style="width:100%">
+                    <h4><a href="https://www.taysteachingtoolkit.com">Tay's Teaching Toolkit</a></h4>
+                    <p>Incredibly polished PowerPoint games from an English teacher in South Korea.</p>
+                    <p>The graphic design is exceptional.  Check out the blog section for design tips.</p>
+                    <p>Status: Active as of Jan 2023. New games being added.  Site owner is active in comments.</p>
+                </div>
+            </div>
+
+            <div class="column linksnres">
+                <div class="content">
+                <img src="images/creative_powerpoint_profile.jpg" alt="CreativePowerPointEveryday" style="width:100%">
+                    <h4><a href="https://www.youtube.com/@CreativePowerPointEveryday">Creative PowerPoint</a></h4>
+                    <p>Videos on how to make some graphics and visual effects in PowerPoint.</p>
+                    <p>Short, clear, and to the point.</p>
+                </div>
+            </div>
+
+            <div class="column linksnres">
+                <div class="content">
+                <img src="images/BrightCarbon-logo.png" alt="BrightCarbon Blog" style="width:100%">
+                    <h4><a href="https://www.brightcarbon.com/blog">BrightCarbon Blog</a></h4>
+                    <p>BrightCarbon are experts at PowerPoint and are the creators of the add-on I recommend the most.</p>
+                    <p>This blog has great advice and nicely detailed and clear guides, including how to use visual basic (VBA).</p>
+                    <p>There're some 'business bingo' nonsense posts, but that doesn't detract from the value of this blog.</p>
+                </div>
+            </div>
+
+            <div class="column linksnres">
+                <div class="content">
+                <img src="images/PowerPoint-random-slide-show-screenshot-2.png" alt="Random Slide - BrightCarbon Blog" style="width:100%">
+                    <h4><a href="https://www.brightcarbon.com/blog/random-order-slide-show-in-powerpoint/">How to create a random order slide show.</a></h4>
+                    <p>This specific blog post will get you a slide show in a random order.</p>
+                    <p>Be aware that it requires the use of VBA and for macros to be allowed.  It's also a bit of a bodge, but it works
+                        and I've yet to come across any alternative for PowerPoint.
+                    </p>
+                    <p>One handy thing about it is that you can save the macro in one PowerPoint presentation and not need copy it across to other
+                        presentations you want to use it in, so long as the presentation with the macro is open.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column addons">
+                <div class="content">
+                <img src="images/BrightSlide-510x295.5298013245-c-default.png" alt="BrightSlide" style="width:100%">
+                    <h4><a href="https://www.brightcarbon.com/brightslide/">BrightSlide by BrightCarbon</a></h4>
+                    <p>An amazing addon that can save so much time and frustration.  And it's free!</p>
+                </div>
+            </div>
+
+            <div class="column addons">
+                <div class="content">
+                <img src="images/THOR_Group_on_PPTools_Tab.png" alt="THOR - The Hammer" style="width:100%">
+                    <h4><a href="http://www.pptools.com/free/FAQ00002-THOR-The-Hammer.htm">THOR - The Hammer</a></h4>
+                    <p>'THOR is a PowerPoint add-in that can memorize the size and position of any shape on a slide (or the size of the slide itself), 
+                        then later "hammer" any other selected shape (or shapes) to the same size and position'</p>
+                    <p>Not something you may need once you have a template, but incredibly useful when creating them.</p>
+                    <p>And it's free!</p>
+                </div>
+            </div>
+
+        </div>
+        <footer-component></footer-component>
+      
+    </body>
+</html>
